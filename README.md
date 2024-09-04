@@ -76,22 +76,6 @@ In the final phase, we develop a Spark Streaming job for data transformation, wh
 [kafka_consume_alerts.py](kafka_consume_alerts.py)
 
 ## Impact :
-The main aim of this project is to integrate the technology with health monitoring system with the help of which we can saves many life of peoples.
+The main aim of this project is to integrate IoT devices with a health monitoring system. By leveraging data engineering, the system collects real-time health data and sends alerts directly to doctors via email, enabling timely medical interventions that can address many challenges in the healthcare system.
 
-
-
-
-
-
-
-
- 
-  
-   
-
-
-
- 
-        
-         
-
+This system also offers several other benefits. In rural areas, where access to medical professionals is limited, it enables continuous monitoring and reporting, reducing the need for long-distance travel for basic check-ups. It also minimizes unnecessary hospital visits, saving costs, especially for elderly and chronically ill patients. Automated data sharing ensures that doctors are kept up-to-date with patients’ health without waiting for scheduled appointments.
