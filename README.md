@@ -75,6 +75,10 @@ In the final phase, we develop a Spark Streaming job for data transformation, wh
 
 [kafka_consume_alerts.py](kafka_consume_alerts.py)
 
+## Impact :
+The main aim of this project is to integrate the technology with health monitoring system with the help of which we can saves many life of peoples.
+
+
 
 
 
