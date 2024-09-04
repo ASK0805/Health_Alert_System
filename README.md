@@ -39,6 +39,18 @@ All The data of our project will be hosted in a Centralised RDS from which we im
   
 3. Threshold Reference Table : This table have the data of attributes like heartbeat, bp etc with its higher and lower limits. data like attribute, Low_age_limit, high_age_limit, low_value, high_value, alert_flag, alert_message. we create this table manually in Hbase
 
+## Task we performed in this project :
+In this project, all the data is hosted in a centralized RDS containing three tables: patients_vital_info, patients_contact, and Threshold_Reference_table.
+
+The first table, patients_vital_info, receives high-velocity data from IoT devices every second. Our initial task is to extract this data from RDS and load it into a designated           location for further analysis.
+
+The second table, patients_contact, holds information about each patient, including their ID, name, address, etc. This data is updated on a daily or weekly basis, making it a form        of batch data that can also be extracted from RDS and transferred to another location for further analysis.
+
+Lastly, the Threshold_Reference_table contains the upper and lower limits for the patients_vital_info data. We use this table to compare and identify any attributes that fall             outside the defined thresholds. If any attribute is detected as out of range, the system immediately sends an email alert to doctors, including the patient’s name, phone number,          address, and the attribute that is out of range.
+
+Our entire project is divided into three phases, which I will explain one by one.
+
+
  
   
    
